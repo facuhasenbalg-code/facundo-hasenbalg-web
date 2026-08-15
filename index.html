@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sitio oficial de Facundo Hasenbalg, músico y artista argentino.">
+  <title>Facundo Hasenbalg | Músico</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#090909;--panel:#121212;--text:#f5f5f5;--muted:#a6a6a6;--line:#252525;--accent:#e8ff3d;--max:1120px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,sans-serif;line-height:1.6}a{color:inherit;text-decoration:none}.wrap{width:min(calc(100% - 40px),var(--max));margin:auto}
+    header{position:fixed;inset:0 0 auto;z-index:10;background:rgba(9,9,9,.82);backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,.06)}nav{height:72px;display:flex;align-items:center;justify-content:space-between}.brand{font-family:'Space Grotesk';font-weight:700;letter-spacing:.04em}.navlinks{display:flex;gap:28px;font-size:14px;color:#ccc}.navlinks a:hover{color:var(--accent)}
+    .hero{min-height:92vh;display:grid;place-items:center;padding:140px 0 90px;background:radial-gradient(circle at 75% 30%,#242424 0,transparent 32%),linear-gradient(135deg,#090909,#101010)}.eyebrow{color:var(--accent);font-weight:700;letter-spacing:.18em;text-transform:uppercase;font-size:13px}.hero h1{font-family:'Space Grotesk';font-size:clamp(56px,10vw,132px);line-height:.88;letter-spacing:-.06em;max-width:1000px;margin:18px 0}.hero p{font-size:clamp(18px,2.4vw,25px);color:#c8c8c8;max-width:650px}.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{padding:13px 19px;border:1px solid var(--line);border-radius:999px;font-weight:700}.btn.primary{background:var(--accent);color:#080808;border-color:var(--accent)}.btn:hover{transform:translateY(-1px)}
+    section{padding:100px 0;border-top:1px solid var(--line)}h2{font-family:'Space Grotesk';font-size:clamp(34px,5vw,60px);margin:0 0 35px;letter-spacing:-.04em}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.card{background:var(--panel);border:1px solid var(--line);border-radius:22px;padding:28px}.card h3{font-family:'Space Grotesk';font-size:25px;margin:0 0 8px}.card p{color:var(--muted);margin:0}.music{display:flex;align-items:center;justify-content:space-between;gap:20px}.tag{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--accent);font-weight:700}.about{display:grid;grid-template-columns:1.2fr .8fr;gap:70px}.about p{font-size:20px;color:#c7c7c7}.socials{display:flex;flex-wrap:wrap;gap:10px}.socials a{border:1px solid var(--line);padding:11px 15px;border-radius:12px;color:#ddd}.socials a:hover{border-color:var(--accent);color:var(--accent)}footer{padding:35px 0;color:#777;font-size:13px;display:flex;justify-content:space-between;gap:20px}
+    @media(max-width:720px){.navlinks{display:none}.grid,.about{grid-template-columns:1fr}.hero{min-height:85vh}.music{align-items:flex-start;flex-direction:column}section{padding:75px 0}footer{flex-direction:column}}
+  </style>
+</head>
+<body>
+<header><nav class="wrap"><a class="brand" href="#inicio">FACUNDO HASENBALG</a><div class="navlinks"><a href="#musica">Música</a><a href="#sobre-mi">Sobre mí</a><a href="#videos">Videos</a><a href="#contacto">Contacto</a></div></nav></header>
+<main>
+<section class="hero" id="inicio"><div class="wrap"><div class="eyebrow">Músico · Artista · Argentina</div><h1>FACUNDO<br>HASENBALG</h1><p>Rock, pop y canciones hechas para contar historias, emociones y momentos.</p><div class="buttons"><a class="btn primary" href="#musica">Escuchar música</a><a class="btn" href="#sobre-mi">Conoceme</a></div></div></section>
+<section id="musica"><div class="wrap"><div class="tag">Lanzamientos</div><h2>Música</h2><div class="grid"><article class="card music"><div><h3>La Balza Rota</h3><p>Single · Rock pop</p></div><a class="btn" href="#contacto">Escuchar →</a></article><article class="card music"><div><h3>Donde Duerme El Viento</h3><p>Single · Rock</p></div><a class="btn" href="#contacto">Escuchar →</a></article></div></div></section>
+<section id="sobre-mi"><div class="wrap about"><div><div class="tag">El artista</div><h2>Sobre mí</h2></div><div><p>Soy Facundo Hasenbalg, músico y artista argentino. Compongo canciones desde una mirada personal, mezclando rock, pop y diferentes influencias para crear una identidad propia.</p><p>Esta página reúne mi música, videos, novedades y próximos proyectos.</p></div></div></section>
+<section id="videos"><div class="wrap"><div class="tag">Contenido</div><h2>Videos</h2><div class="card"><h3>Mi canal de YouTube</h3><p>Encontrá canciones, videos y novedades de Facundo Hasenbalg.</p><div class="buttons"><a class="btn primary" href="https://www.youtube.com/@FacuHasenbalg-v8w" target="_blank" rel="noopener">Ver YouTube →</a></div></div></div></section>
+<section id="contacto"><div class="wrap"><div class="tag">Conectemos</div><h2>Seguime</h2><div class="socials"><a href="https://www.youtube.com/@FacuHasenbalg-v8w" target="_blank" rel="noopener">YouTube</a><a href="https://www.instagram.com/facu_hasenbalg/" target="_blank" rel="noopener">Instagram</a><a href="#" aria-label="Spotify próximamente">Spotify</a></div></div></section>
+</main>
+<footer class="wrap"><span>© 2026 Facundo Hasenbalg</span><span>Hecho con música y pasión.</span></footer>
+</body>
+</html>
